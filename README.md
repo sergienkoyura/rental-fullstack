@@ -1,5 +1,5 @@
-# Web-application "Sportify"
-It is a web-application where users can loan sports equipment. 
+# Web application "Sportify"
+It is a web application where users can loan sports equipment. 
 ## Technologies
 * Java 17
 * MongoDB
@@ -15,7 +15,7 @@ It is a web-application where users can loan sports equipment.
 * Leave reviews
 * Pay late fees
 * Q/A with admins
-* Edit equimpent
+* Edit equipment
 ## Interface
 ![Home page](https://github.com/sergienkoyura/rental-fullstack/assets/89968126/f9d1d10e-6984-4e22-a551-fc6c209f15f1)
 ##
@@ -30,10 +30,3 @@ It is a web-application where users can loan sports equipment.
 ![Admin page](https://github.com/sergienkoyura/rental-fullstack/assets/89968126/3ccbf160-0d1b-4e49-b487-f61ec05ac427)
 ##
 ![Messages page](https://github.com/sergienkoyura/rental-fullstack/assets/89968126/6d66b3f6-b1ff-4f76-bca4-ec63b0ff9cd2)
-
-##
-![image](https://user-images.githubusercontent.com/89968126/222857758-d41afa05-1982-447c-842c-2753f8c67cc2.png)
-##
-![image](https://user-images.githubusercontent.com/89968126/222857819-9d727b2a-275a-440d-a09c-a1f38a60ab68.png)
-
-
