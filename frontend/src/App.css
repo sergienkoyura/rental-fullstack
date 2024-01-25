@@ -1,0 +1,92 @@
+:root{
+    --mainOpacity: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./Images/PublicImages/image-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: var(--mainOpacity);
+    height: 25em !important;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.main-color, .btn-success {
+background-color: var(--bs-primary-rgb) ;
+}
+
+.btn-primary{
+    --bs-btn-bg: var(--bs-primary-rgb);
+    --bs-btn-border-color: var(--bs-primary-rgb);
+    --bs-btn-hover-bg: var(--bs-primary-rgb);
+    --bs-btn-hover-border-color: var(--bs-primary-rgb);
+    --bs-btn-active-bg: var(--bs-primary-rgb);
+    --bs-btn-active-border-color: var(--bs-primary-rgb);
+    --bs-btn-disabled-bg: var(--bs-primary-rgb);
+    --bs-btn-disabled-border-color: var(--bs-primary-rgb);
+}
+
+.btn-outline-success{
+    --bs-btn-color: var(--bs-primary-rgb);
+    --bs-btn-border-color: var(--bs-primary-rgb);
+    --bs-btn-hover-bg: var(--bs-primary-rgb);
+    --bs-btn-hover-border-color: var(--bs-primary-rgb);
+    --bs-btn-active-bg: var(--bs-primary-rgb);
+    --bs-btn-active-border-color: var(--bs-primary-rgb);
+    --bs-btn-disabled-color: var(--bs-primary-rgb);
+    --bs-btn-disabled-border-color: var(--bs-primary-rgb);
+}
+
+.text-success{
+    color: var(--bs-primary-rgb) !important;
+}
+
+.pagination{
+    --bs-pagination-active-bg: var(--bs-primary-rgb);
+    --bs-pagination-active-border-color: var(--bs-primary-rgb);
+    --bs-pagination-focus-box-shadow: none;
+}
+
+:root{
+    --bs-primary-rgb: #194f00;
+    --bs-link-color: #194f00;
+    --bs-link-hover-color: #194f00;
+}
+
+.col-image-left {
+    background-image: url("./Images/PublicImages/image-4.jpg");
+    background-size: cover;
+    height: 25em !important;
+}
+
+.col-image-right {
+    background-image: url("./Images/PublicImages/image-1.jpg");
+    background-size: cover;
+    height: 25em !important;
+}
+
+.lost-image {
+    background-image: url("./Images/PublicImages/image-3.jpg");
+    background-size: cover;
+    height: 25em !important;
+    width: "720"
+}
+
+.homepage-carousel-title {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
